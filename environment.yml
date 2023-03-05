@@ -1,8 +1,10 @@
 name: nanoViT
 channels:
-  - pytorch
+  - conda-forge
   - defaults
 dependencies:
   - python=3.9
   - pytorch=1.13.1
   - torchvision
+  - timm=0.6.12
+
